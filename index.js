@@ -6,9 +6,9 @@ alert(texts);
 alert(textz);
 
 function myFunction() {
-  let text = document.getElementById("demo").innerHTML;
+  let text2 = document.getElementById("demo").innerHTML;
   document.getElementById("demo").innerHTML =
-  text.toUpperCase();
+  text2.toUpperCase();
 }
 
 let text1 = "Hello";
@@ -17,3 +17,4 @@ let text3 = text1.concat(" ",text2);
 alert(text3);
 
 text = "Hello" + " " + "World!";
+prompt("text");
