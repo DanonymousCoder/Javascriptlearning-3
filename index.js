@@ -1,4 +1,4 @@
-let text = "Please visit Microsoft!";
-let newText = text.replace(/MICROSOFT/i, "W3Schools");
-
-function my
+let text = "Please visit MICROSOFT!";
+function myFunction(){
+    let text = document.getElementById("demo") = text.replace(/MICROSOFT/i, "W3Schools")
+}
