@@ -1,1 +1,3 @@
 # Javascriptlearning-3
+This repository is for me to practice and learn Javascript.....
+Topic - Strings
