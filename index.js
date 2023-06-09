@@ -48,4 +48,7 @@ confirm(char1);
 
 let text02 = "HELLO WORLD";
 let char2 = text02[0];
-console.log(char2)
+console.log(char2);
+
+const string4 = new String("A String object");
+confirm(string4)
