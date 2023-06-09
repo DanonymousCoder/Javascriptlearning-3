@@ -64,4 +64,7 @@ if (a < b) {
 } else {
   console.log(`${a} and ${b} are equal.`);
 }
+function areEqualCaseInsensitive(str1, str2) {
+  return str1.toUpperCase() === str2.toUpperCase();
+}
 
