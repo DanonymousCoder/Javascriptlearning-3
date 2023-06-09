@@ -26,3 +26,9 @@ console.log(text5)
 let text6 = "     Hello World!     ";
 let text7 = text1.trimEnd();
 console.log (text7)
+
+let t = "5";
+let padded = t.padStart(4,"0");
+console.log(padded)
+ let padde = t.padEnd(4, "0")
+ console.log(padde)
