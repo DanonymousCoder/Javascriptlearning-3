@@ -51,4 +51,17 @@ let char2 = text02[0];
 console.log(char2);
 
 const string4 = new String("A String object");
-confirm(string4)
+confirm(string4);
+"cat".charAt(1); // gives value "a"
+
+const a = "a";
+const b = "b";
+if (a < b) {
+  // true
+  console.log(`${a} is less than ${b}`);
+} else if (a > b) {
+  console.log(`${a} is greater than ${b}`);
+} else {
+  console.log(`${a} and ${b} are equal.`);
+}
+
