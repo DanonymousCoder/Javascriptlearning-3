@@ -33,3 +33,10 @@ console.log(padded);
  let padde = t.padEnd(4, "x");
  console.log(padde);
 
+ let numb = 5;
+ let text0 = numb.toString();
+ let padding = text0.padEnd(4,"0")
+ console.log(padding)
+
+ let text01 = "HELLO WORLD";
+let char = text01.charAt(01);
