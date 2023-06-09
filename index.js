@@ -39,4 +39,13 @@ console.log(padded);
  console.log(padding)
 
  let text01 = "HELLO WORLD";
-let char = text01.charAt(01);
+let char = text01.charAt(2);
+confirm(char);
+
+let text001 = "HELLO WORLD";
+let char1 = text001.charCodeAt(0);
+confirm(char1);
+
+let text02 = "HELLO WORLD";
+let char2 = text02[0];
+console.log(char2)
