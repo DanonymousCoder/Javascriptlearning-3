@@ -94,3 +94,9 @@ undefinedVar.toString(); // TypeError: undefinedVar is undefined
 String(undefinedVar); // "undefined"
 console.log(undefinedVar)
 
+const areEqual = (str1, str2, locale = "en-US") =>
+  str1.localeCompare(str2, locale, { sensitivity: "accent" }) === 0;
+
+areEqual("ß", "ss", "de"); // false
+areEqual("ı", "I", "tr"); // true
+
