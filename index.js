@@ -89,10 +89,9 @@ nullVar.toString(); // TypeError: nullVar is null
 String(nullVar); // "null"
 console.log("nullVar")
 
-const undefinedVar = undefined;
-undefinedVar.toString(); // TypeError: undefinedVar is undefined
-String(undefinedVar); // "undefined"
-console.log(undefinedVar)
+const undefined = undefined;
+undefinedVar.toString(undefined); // TypeError: undefinedVar is undefined // "undefined"
+console.log(undefined);
 
 const areEqual = (str1, str2, locale = "en-US") =>
   str1.localeCompare(str2, locale, { sensitivity: "accent" }) === 0;
