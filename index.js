@@ -84,4 +84,12 @@ console.log(eval(s2)); // returns the string "2 + 2"
 console.log(eval(s2.valueOf())); // returns the number 4
 console.log(eval(s2.valueOf())); // returns the number 4
 
+const nullVar = null;
+nullVar.toString(); // TypeError: nullVar is null
+String(nullVar); // "null"
+
+const undefinedVar = undefined;
+undefinedVar.toString(); // TypeError: undefinedVar is undefined
+String(undefinedVar); // "undefined"
+
 
